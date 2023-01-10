@@ -95,3 +95,11 @@ function calculate(firstOperand, secondOperand, operator) {
   }
   return secondOperand
 }
+
+// Reset Calculator
+function resetCalculator() {
+  calculator.displayValue = "0"
+  calculator.firstOperand = null
+  calculator.waitingForSecondOperand = false
+  calculator.operator = null
+}
