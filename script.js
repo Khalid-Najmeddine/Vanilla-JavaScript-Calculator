@@ -6,3 +6,9 @@ const calculator = {
   operator: null
 }
 
+//Update Display
+function updateDisplay() {
+  const display = document.querySelector(".screen")
+  display.value = calculator.displayValue
+}
+updateDisplay()
