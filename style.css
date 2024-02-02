@@ -4,8 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url("https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+img {
+  width: 1900px;
+  height: 1000px;
+  padding-right: 600px;
 }
 
 .container {
@@ -14,7 +16,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-170%, -50%);
   width: 325px;
 }
 
